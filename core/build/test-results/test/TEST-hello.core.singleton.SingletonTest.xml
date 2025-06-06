@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.singleton.SingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-06T02:57:34.113Z" hostname="odong-gyus-MacBook-Air.local" time="0.039">
+<testsuite name="hello.core.singleton.SingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-06T03:20:08.027Z" hostname="odong-gyus-MacBook-Air.local" time="0.032">
   <properties/>
-  <testcase name="스프링 없는 순수한 DI 컨테이너" classname="hello.core.singleton.SingletonTest" time="0.039"/>
-  <system-out><![CDATA[memberService1 = hello.core.member.MemberServiceImpl@78fa769e
-memberService2 = hello.core.member.MemberServiceImpl@62656be4
+  <testcase name="싱글톤 패턴을 적용한 객체 사용" classname="hello.core.singleton.SingletonTest" time="0.032"/>
+  <system-out><![CDATA[singletonService1 = hello.core.singleton.SingletonService@53f3bdbd
+singletonService2 = hello.core.singleton.SingletonService@53f3bdbd
+싱글톤 객체 로직 호출
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

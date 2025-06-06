@@ -1,2 +1,3 @@
->memberService1 = hello.core.member.MemberServiceImpl@78fa769e
->memberService2 = hello.core.member.MemberServiceImpl@62656be4
+CsingletonService1 = hello.core.singleton.SingletonService@53f3bdbd
+CsingletonService2 = hello.core.singleton.SingletonService@53f3bdbd
+싱글톤 객체 로직 호출
