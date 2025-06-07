@@ -1,3 +1,6 @@
-name = userA, price = 10000
-name = userB, price = 20000
-price = 10000
+call AppConfig.memberService
+ call AppConfig.memberRepository
+call AppConfig.orderService
+TmemberService -> memberRepository = hello.core.member.MemoryMemberRepository@d78795
+SorderService -> memberRepository = hello.core.member.MemoryMemberRepository@d78795
+WmemberRepository -> memberRepository = hello.core.member.MemoryMemberRepository@d78795

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.singleton.ConfigurationSingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-07T07:41:17.560Z" hostname="odong-gyus-MacBook-Air.local" time="0.212">
+  <properties/>
+  <testcase name="configurationTest()" classname="hello.core.singleton.ConfigurationSingletonTest" time="0.212"/>
+  <system-out><![CDATA[call AppConfig.memberService
+call AppConfig.memberRepository
+call AppConfig.orderService
+memberService -> memberRepository = hello.core.member.MemoryMemberRepository@d78795
+orderService -> memberRepository = hello.core.member.MemoryMemberRepository@d78795
+memberRepository -> memberRepository = hello.core.member.MemoryMemberRepository@d78795
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
