@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.singleton.SingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-06T03:53:06.908Z" hostname="odong-gyus-MacBook-Air.local" time="0.236">
-  <properties/>
-  <testcase name="스프링 컨테이너와 싱글톤" classname="hello.core.singleton.SingletonTest" time="0.236"/>
-  <system-out><![CDATA[memberService1 = hello.core.member.MemberServiceImpl@22c86919
-memberService2 = hello.core.member.MemberServiceImpl@22c86919
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

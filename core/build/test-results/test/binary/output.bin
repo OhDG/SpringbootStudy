@@ -1,2 +1,3 @@
->memberService1 = hello.core.member.MemberServiceImpl@22c86919
->memberService2 = hello.core.member.MemberServiceImpl@22c86919
+name = userA, price = 10000
+name = userB, price = 20000
+price = 10000
