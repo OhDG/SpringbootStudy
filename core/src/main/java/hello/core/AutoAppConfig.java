@@ -15,8 +15,8 @@ import org.springframework.stereotype.Component;
 )
 public class AutoAppConfig {
 
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memoryMemberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memoryMemberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }

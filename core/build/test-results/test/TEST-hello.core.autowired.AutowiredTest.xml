@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.autowired.AutowiredTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-07T12:27:48.371Z" hostname="odong-gyus-MacBook-Air.local" time="0.192">
+  <properties/>
+  <testcase name="AutowiredOption()" classname="hello.core.autowired.AutowiredTest" time="0.192"/>
+  <system-out><![CDATA[21:27:48.507 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f0b0a5e
+21:27:48.514 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+21:27:48.532 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+21:27:48.535 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+21:27:48.535 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+21:27:48.536 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+21:27:48.540 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'autowiredTest.TestBean'
+noBean2 = null
+noBean3 = Optional.empty
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
