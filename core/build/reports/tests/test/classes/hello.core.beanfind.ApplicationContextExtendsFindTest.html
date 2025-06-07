@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ApplicationContextExtendsFindTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ApplicationContextExtendsFindTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/hello.core.beanfind.html">hello.core.beanfind</a> &gt; ApplicationContextExtendsFindTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.011s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">부모 타입으로 모두 조회하기 - Object</td>
+<td class="success">findAllBeanByObjectType()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">부모 타입으로 모두 조회하기</td>
+<td class="success">findAllBeanByParentType()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">부모 타입으로 조회 시, 자식이 둘 이상 있으면, 빈 이름을 지정하면 된다</td>
+<td class="success">findBeanByParentTypeBeanName()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">부모 타입으로 조회 시, 자식이 둘 이상 있으면, 중복 오류가 발생한다</td>
+<td class="success">findBeanByParentTypeDuplicate()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">특정 하위 타입으로 조회</td>
+<td class="success">findBeanBySubType()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>key = org.springframework.context.annotation.internalConfigurationAnnotationProcessor, value = org.springframework.context.annotation.ConfigurationClassPostProcessor@7f97bc14
+key = org.springframework.context.annotation.internalAutowiredAnnotationProcessor, value = org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor@22d8f4ed
+key = org.springframework.context.annotation.internalCommonAnnotationProcessor, value = org.springframework.context.annotation.CommonAnnotationBeanPostProcessor@3434a4f0
+key = org.springframework.context.event.internalEventListenerProcessor, value = org.springframework.context.event.EventListenerMethodProcessor@79afa369
+key = org.springframework.context.event.internalEventListenerFactory, value = org.springframework.context.event.DefaultEventListenerFactory@3b9ac754
+key = applicationContextExtendsFindTest.TestConfig, value = hello.core.beanfind.ApplicationContextExtendsFindTest$TestConfig$$SpringCGLIB$$0@5e002356
+key = rateDiscountPolicy, value = hello.core.discount.RateDiscountPolicy@4f820f42
+key = FixDiscountPolicy, value = hello.core.discount.FixDiscountPolicy@4b325930
+key = environment, value = StandardEnvironment {activeProfiles=[], defaultProfiles=[default], propertySources=[PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]}
+key = systemProperties, value = {java.specification.version=17, sun.jnu.encoding=UTF-8, org.gradle.test.worker=13, java.class.path=/Users/ohdonggyu/.gradle/caches/8.14/workerMain/gradle-worker.jar:/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/test:/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main:/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/resources/main:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/3.5.0/d973979fde1282d9368d086deb7d82997079d61b/spring-boot-starter-test-3.5.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/3.5.0/f8b02201e89d294514420a586624aa7338d61f4f/spring-boot-starter-3.5.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.12.2/64d3ec64ae06517bc14b7faaaec7c996b0d05bea/junit-jupiter-5.12.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.12.2/b8df7575b8cd3a94dbe27b481d1cd52c57864559/junit-jupiter-engine-5.12.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.12.2/8519ece93f91b8115705d36be2c36d49808935cd/junit-platform-engine-1.12.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/5.17.0/4399e19e3fb5b55230027583323e4c883d5da07d/mockito-junit-jupiter-5.17.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.12.2/ff1434a66d1fb84c2c709cde2e2d56d5c8f4fad3/junit-jupiter-params-5.12.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.12.2/6de3a3256c5d90f4a439edcb6c2e8dc5180907b0/junit-jupiter-api-5.12.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.12.2/b89e88a89ee009937374a4c96912e007b34c8e35/junit-platform-commons-1.12.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.12.2/79d49ad13017c67a8bf76e10ba5ac8937d811772/junit-platform-launcher-1.12.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/3.5.0/7316f805ca7db725b54e3d3902ca0b6ebafc50bc/spring-boot-test-autoconfigure-3.5.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.5.0/a7f8ba40022dd75f20ac0eafe117437a1a7f3935/spring-boot-autoconfigure-3.5.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/3.5.0/1c5c19ae32d1c4b8532dcab8a8e92094ef864bda/spring-boot-test-3.5.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.5.0/ec86afc460265a0219bfafe187acb6c596ac2de1/spring-boot-3.5.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/3.5.0/7db0461d8895f00a9841bf5558501fe90e7eba4c/spring-boot-starter-logging-3.5.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/6.2.7/77af0b9d6b218d149f77e63ff5ec6349b5d8abdd/spring-test-6.2.7.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.2.7/e0f3850bba7ff52016429e8d2fa39b5107f1fde6/spring-context-6.2.7.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.2.7/3df3ee9217cb62e65382718351e56f1eeb76e74c/spring-aop-6.2.7.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.2.7/64119950b73943f67196705e43acddd7bf714c45/spring-beans-6.2.7.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.2.7/fa525916c85df246fcb70c771d039523dd6f12d9/spring-expression-6.2.7.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.2.7/525a228b8b4323568b7aa9e49c1e1df27838adf1/spring-core-6.2.7.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.4/e0666b825b796f85521f02360e77f4c92c5a7a07/snakeyaml-2.4.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.9.0/37fe2217f577b0b68b18e62c4d17a8858ecf9b69/json-path-2.9.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.2/6cd5a999b834b63238005b7144136379dc36cad2/jakarta.xml.bind-api-4.0.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.5.2/95d166b18f95907be0f46cdb9e1c0695eed03387/json-smart-2.5.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.27.3/31f5d58a202bd5df4993fb10fa2cffd610c20d6f/assertj-core-3.27.3.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.awaitility/awaitility/4.3.0/f0c0bc1e404e500bab3f498b922eaedeae1c0207/awaitility-4.3.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/3.0/8fd9b78a8e6a6510a078a9e30e9e86a6035cfaf7/hamcrest-3.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/5.17.0/f5fe5a2f94eb65f4f83ca0607bfe13ec0d9c6f3b/mockito-core-5.17.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.3/aaa43e0823d2a0e106e8754d6a9c4ab24e05e9bc/jsonassert-1.5.3.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.10.1/292f3b22389f67bd7ab541783561672e71603eaf/xmlunit-core-2.10.1.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.5.18/fc371f3fc97a639de2d67947cffb7518ec5e3d40/logback-classic-1.5.18.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.24.3/da1143e2a2531ee1c2d90baa98eb50a28a39d5a7/log4j-to-slf4j-2.24.3.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.17/524cb6ccc2b68a57604750e1ab8b13b5a786a6aa/jul-to-slf4j-2.0.17.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.2.7/16b5f3446a6fcf097f4910c935086d08db657653/spring-jcl-6.2.7.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.17/d9e58ac9c7779ba3bf8142aff6c830617a7fe60f/slf4j-api-2.0.17.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.3/fa165bd70cda600368eee31555222776a46b881f/jakarta.activation-api-2.1.3.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.5.2/ce16fd235cfee48e67eda33e684423bba09f7d07/accessors-smart-2.5.2.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.17.5/88450f120903b7e72470462cdbd2b75a3842223c/byte-buddy-1.17.5.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.5/58f9507f5f28d1d3e7adfb4ec2fe37c29d332c9b/byte-buddy-agent-1.17.5.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/1049c09f1de4331e8193e579448d0916d75b7631/objenesis-3.3.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.3.0/152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e/opentest4j-1.3.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.15.0/1bcd42cb00aead4d441038fa86b0e6b41922e254/micrometer-observation-1.15.0.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.5.18/6c0375624f6f36b4e089e2488ba21334a11ef13f/logback-core-1.5.18.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.24.3/b02c125db8b6d295adf72ae6e71af5d83bce2370/log4j-api-2.24.3.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7.1/f0ed132a49244b042cd0e15702ab9f2ce3cc8436/asm-9.7.1.jar:/Users/ohdonggyu/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.15.0/a796f0418b2e0fe42988a1ca6e240d8b3fb5e954/micrometer-commons-1.15.0.jar, java.vm.vendor=Amazon.com Inc., sun.arch.data.model=64, user.variant=, java.vendor.url=https://aws.amazon.com/corretto/, user.timezone=Asia/Seoul, java.vm.specification.version=17, os.name=Mac OS X, APPLICATION_NAME=core, user.country=KR, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=/Users/ohdonggyu/Library/Java/JavaVirtualMachines/corretto-17.0.15/Contents/Home/lib, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 13', http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300, jdk.debug=release, sun.cpu.endian=little, user.home=/Users/ohdonggyu, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2025-04-15, java.home=/Users/ohdonggyu/Library/Java/JavaVirtualMachines/corretto-17.0.15/Contents/Home, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, java.awt.headless=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300, java.runtime.version=17.0.15+6-LTS, user.name=ohdonggyu, path.separator=:, os.version=15.3.1, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, java.vendor.version=Corretto-17.0.15.6.1, java.vendor.url.bug=https://github.com/corretto/corretto-17/issues/, java.io.tmpdir=/var/folders/lc/89wt6np94s19g47tpbts9vpc0000gn/T/, java.version=17.0.15, user.dir=/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core, os.arch=aarch64, java.vm.specification.name=Java Virtual Machine Specification, PID=26039, org.gradle.internal.worker.tmpdir=/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/tmp/test/work, CONSOLE_LOG_CHARSET=UTF-8, native.encoding=UTF-8, java.library.path=/Users/ohdonggyu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vm.info=mixed mode, sharing, java.vendor=Amazon.com Inc., java.vm.version=17.0.15+6-LTS, java.specification.maintenance.version=1, sun.io.unicode.encoding=UnicodeBig, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300, java.class.version=61.0, LOGGED_APPLICATION_NAME=[core] }
+key = systemEnvironment, value = {PATH=/opt/homebrew/opt/openjdk@17/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools, HOMEBREW_PREFIX=/opt/homebrew, COMMAND_MODE=unix2003, JAVA_MAIN_CLASS_26039=worker.org.gradle.process.internal.worker.GradleWorkerMain, LOGNAME=ohdonggyu, HOMEBREW_REPOSITORY=/opt/homebrew, XPC_SERVICE_NAME=application.com.jetbrains.intellij.84446903.84447754, JAVA_HOME_17=/opt/homebrew/opt/openjdk@17, INFOPATH=/opt/homebrew/share/info:, __CFBundleIdentifier=com.jetbrains.intellij, SHELL=/bin/zsh, PAGER=less, LSCOLORS=Gxfxcxdxbxegedabagacad, OLDPWD=/, HOMEBREW_CELLAR=/opt/homebrew/Cellar, USER=ohdonggyu, ZSH=/Users/ohdonggyu/.oh-my-zsh, TMPDIR=/var/folders/lc/89wt6np94s19g47tpbts9vpc0000gn/T/, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.yeQW3euBFq/Listeners, XPC_FLAGS=0x0, __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0, LESS=-R, LC_CTYPE=en_US.UTF-8, LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43, HOME=/Users/ohdonggyu}
+key = applicationStartup, value = org.springframework.core.metrics.DefaultApplicationStartup@15986dd5
+key = org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry, value = []
+key = messageSource, value = Empty MessageSource
+key = applicationEventMulticaster, value = org.springframework.context.event.SimpleApplicationEventMulticaster@678a9516
+key = lifecycleProcessor, value = org.springframework.context.support.DefaultLifecycleProcessor@5bf9ea6b
+key = rateDiscountPolicy, value = hello.core.discount.RateDiscountPolicy@7243145f
+key = FixDiscountPolicy, value = hello.core.discount.FixDiscountPolicy@15c6027d
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14</a> at Jun 7, 2025, 5:05:23 PM</p>
+</div>
+</div>
+</body>
+</html>
