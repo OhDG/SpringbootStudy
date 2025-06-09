@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.order.OrderServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-09T07:04:04.471Z" hostname="odong-gyus-MacBook-Air.local" time="0.0">
+<testsuite name="hello.core.order.OrderServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-09T07:52:04.817Z" hostname="odong-gyus-MacBook-Air.local" time="0.0">
   <properties/>
   <testcase name="createOrder()" classname="hello.core.order.OrderServiceTest" time="0.0"/>
   <system-out><![CDATA[call AppConfig.memberService
 call AppConfig.memberRepository
 call AppConfig.orderService
 call AppConfig.memberRepository
-memberRepository = hello.core.member.MemoryMemberRepository@578a5ce8
-discountPolicy = hello.core.discount.RateDiscountPolicy@7c453c34
+memberRepository = hello.core.member.MemoryMemberRepository@61359e87
+discountPolicy = hello.core.discount.RateDiscountPolicy@2dc39b53
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

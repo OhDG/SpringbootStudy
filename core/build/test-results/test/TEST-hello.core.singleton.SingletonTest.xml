@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.singleton.SingletonTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-09T07:04:04.502Z" hostname="odong-gyus-MacBook-Air.local" time="0.006">
+<testsuite name="hello.core.singleton.SingletonTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-09T07:52:04.861Z" hostname="odong-gyus-MacBook-Air.local" time="0.008">
   <properties/>
-  <testcase name="스프링 없는 순수한 DI 컨테이너" classname="hello.core.singleton.SingletonTest" time="0.0"/>
-  <testcase name="싱글톤 패턴을 적용한 객체 사용" classname="hello.core.singleton.SingletonTest" time="0.001"/>
-  <testcase name="스프링 컨테이너와 싱글톤" classname="hello.core.singleton.SingletonTest" time="0.004"/>
+  <testcase name="스프링 없는 순수한 DI 컨테이너" classname="hello.core.singleton.SingletonTest" time="0.001"/>
+  <testcase name="싱글톤 패턴을 적용한 객체 사용" classname="hello.core.singleton.SingletonTest" time="0.0"/>
+  <testcase name="스프링 컨테이너와 싱글톤" classname="hello.core.singleton.SingletonTest" time="0.007"/>
   <system-out><![CDATA[call AppConfig.memberService
 call AppConfig.memberRepository
 call AppConfig.memberService
 call AppConfig.memberRepository
-memberService1 = hello.core.member.MemberServiceImpl@2506b881
-memberService2 = hello.core.member.MemberServiceImpl@5d7dd549
-singletonService1 = hello.core.singleton.SingletonService@6459f4ea
-singletonService2 = hello.core.singleton.SingletonService@6459f4ea
+memberService1 = hello.core.member.MemberServiceImpl@6ac45c0c
+memberService2 = hello.core.member.MemberServiceImpl@12192604
+singletonService1 = hello.core.singleton.SingletonService@231cdda8
+singletonService2 = hello.core.singleton.SingletonService@231cdda8
 싱글톤 객체 로직 호출
-16:04:04.506 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@476fde05
-16:04:04.506 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-16:04:04.507 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
-16:04:04.507 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
-16:04:04.507 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-16:04:04.508 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-16:04:04.508 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'appConfig'
-16:04:04.508 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberService'
+16:52:04.864 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3002e397
+16:52:04.864 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+16:52:04.865 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+16:52:04.865 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+16:52:04.866 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+16:52:04.866 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+16:52:04.867 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'appConfig'
+16:52:04.868 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberService'
 call AppConfig.memberService
-16:04:04.508 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberRepository'
+16:52:04.868 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberRepository'
 call AppConfig.memberRepository
-16:04:04.508 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderService'
+16:52:04.868 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderService'
 call AppConfig.orderService
-16:04:04.508 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'discountPolicy'
-memberRepository = hello.core.member.MemoryMemberRepository@6075b369
-discountPolicy = hello.core.discount.RateDiscountPolicy@231cdda8
-memberService1 = hello.core.member.MemberServiceImpl@6b70d1fb
-memberService2 = hello.core.member.MemberServiceImpl@6b70d1fb
+16:52:04.868 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'discountPolicy'
+memberRepository = hello.core.member.MemoryMemberRepository@79df80a4
+discountPolicy = hello.core.discount.RateDiscountPolicy@130cfc47
+memberService1 = hello.core.member.MemberServiceImpl@4eeab3e
+memberService2 = hello.core.member.MemberServiceImpl@4eeab3e
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.434s</div>
+<div class="counter">0.444s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.434s</td>
+<td class="success">0.444s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,20 +87,20 @@
 <div class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:04:03.354 [Test worker] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [CoreApplicationTests]: using SpringBootContextLoader
-16:04:03.356 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader -- Could not detect default resource locations for test class [hello.core.CoreApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-16:04:03.356 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.core.CoreApplicationTests]: CoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:04:03.364 [Test worker] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper -- Using ContextCustomizerFactory implementations for test class [CoreApplicationTests]: [OnFailureConditionReportContextCustomizerFactory, OverrideAutoConfigurationContextCustomizerFactory, ObservabilityContextCustomizerFactory, TypeExcludeFiltersContextCustomizerFactory, PropertyMappingContextCustomizerFactory, WebDriverContextCustomizerFactory, ImportsContextCustomizerFactory, ExcludeFilterContextCustomizerFactory, HttpGraphQlTesterContextCustomizerFactory, DuplicateJsonObjectContextCustomizerFactory, MockitoContextCustomizerFactory, TestRestTemplateContextCustomizerFactory, WebTestClientContextCustomizerFactory, DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory, BeanOverrideContextCustomizerFactory, MockServerContainerContextCustomizerFactory, DynamicPropertiesContextCustomizerFactory]
-16:04:03.375 [Test worker] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [CoreApplicationTests]: [OnFailureConditionReportContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, WebDriverContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DynamicPropertiesContextCustomizer]
-16:04:03.416 [Test worker] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/CoreApplication.class]
-16:04:03.417 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.core.CoreApplication for test class hello.core.CoreApplicationTests
-16:04:03.455 [Test worker] DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: jakarta/servlet/ServletContext
-16:04:03.457 [Test worker] DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.observation.MicrometerObservationRegistryTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: io.micrometer.context.ThreadLocalAccessor. MicrometerObservationRegistryTestExecutionListener requires io.micrometer:micrometer-observation:1.10.8 or higher and io.micrometer:context-propagation:1.0.3 or higher.
-16:04:03.458 [Test worker] DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: org/springframework/transaction/interceptor/TransactionAttributeSource
-16:04:03.458 [Test worker] DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: org/springframework/transaction/interceptor/TransactionAttribute
-16:04:03.460 [Test worker] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [CoreApplicationTests]: [DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, BeanOverrideTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, CommonCachesTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener, MockitoResetTestExecutionListener]
-16:04:03.461 [Test worker] DEBUG o.s.t.c.s.DirtiesContextBeforeModesTestExecutionListener -- Before test class: class [CoreApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
-16:04:03.467 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener -- Performing dependency injection for test class hello.core.CoreApplicationTests
+<pre>16:52:03.669 [Test worker] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [CoreApplicationTests]: using SpringBootContextLoader
+16:52:03.671 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader -- Could not detect default resource locations for test class [hello.core.CoreApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:52:03.672 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.core.CoreApplicationTests]: CoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:52:03.679 [Test worker] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper -- Using ContextCustomizerFactory implementations for test class [CoreApplicationTests]: [OnFailureConditionReportContextCustomizerFactory, OverrideAutoConfigurationContextCustomizerFactory, ObservabilityContextCustomizerFactory, TypeExcludeFiltersContextCustomizerFactory, PropertyMappingContextCustomizerFactory, WebDriverContextCustomizerFactory, ImportsContextCustomizerFactory, ExcludeFilterContextCustomizerFactory, HttpGraphQlTesterContextCustomizerFactory, DuplicateJsonObjectContextCustomizerFactory, MockitoContextCustomizerFactory, TestRestTemplateContextCustomizerFactory, WebTestClientContextCustomizerFactory, DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory, BeanOverrideContextCustomizerFactory, MockServerContainerContextCustomizerFactory, DynamicPropertiesContextCustomizerFactory]
+16:52:03.689 [Test worker] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [CoreApplicationTests]: [OnFailureConditionReportContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, WebDriverContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DynamicPropertiesContextCustomizer]
+16:52:03.732 [Test worker] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/CoreApplication.class]
+16:52:03.734 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.core.CoreApplication for test class hello.core.CoreApplicationTests
+16:52:03.773 [Test worker] DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: jakarta/servlet/ServletContext
+16:52:03.775 [Test worker] DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.observation.MicrometerObservationRegistryTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: io.micrometer.context.ThreadLocalAccessor. MicrometerObservationRegistryTestExecutionListener requires io.micrometer:micrometer-observation:1.10.8 or higher and io.micrometer:context-propagation:1.0.3 or higher.
+16:52:03.775 [Test worker] DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: org/springframework/transaction/interceptor/TransactionAttributeSource
+16:52:03.776 [Test worker] DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: org/springframework/transaction/interceptor/TransactionAttribute
+16:52:03.778 [Test worker] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [CoreApplicationTests]: [DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, BeanOverrideTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, CommonCachesTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener, MockitoResetTestExecutionListener]
+16:52:03.779 [Test worker] DEBUG o.s.t.c.s.DirtiesContextBeforeModesTestExecutionListener -- Before test class: class [CoreApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+16:52:03.784 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener -- Performing dependency injection for test class hello.core.CoreApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -111,115 +111,115 @@
 
  :: Spring Boot ::                (v3.5.0)
 
-16:04:03.597 [Test worker] INFO  hello.core.CoreApplicationTests -- Starting CoreApplicationTests using Java 17.0.15 with PID 43189 (started by ohdonggyu in /Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core)
-16:04:03.598 [Test worker] DEBUG hello.core.CoreApplicationTests -- Running with Spring Boot v3.5.0, Spring v6.2.7
-16:04:03.598 [Test worker] INFO  hello.core.CoreApplicationTests -- No active profile set, falling back to 1 default profile: &quot;default&quot;
-16:04:03.598 [Test worker] DEBUG o.s.boot.SpringApplication -- Loading source class hello.core.CoreApplication
-16:04:03.607 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f193686
-16:04:03.613 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-16:04:03.620 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
-16:04:03.640 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/AppConfig.class]
-16:04:03.640 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/AutoAppConfig.class]
-16:04:03.640 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class]
-16:04:03.641 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class]
-16:04:03.641 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/member/MemberServiceImpl.class]
-16:04:03.641 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/member/MemoryMemberRepository.class]
-16:04:03.642 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/order/OrderServiceImpl.class]
-16:04:03.647 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class]
-16:04:03.647 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class]
-16:04:03.647 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/member/MemberServiceImpl.class]
-16:04:03.647 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/member/MemoryMemberRepository.class]
-16:04:03.647 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/order/OrderServiceImpl.class]
-16:04:03.768 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
-16:04:03.771 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
-16:04:03.774 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
-16:04:03.781 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
-16:04:03.781 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'forceAutoProxyCreatorToUseClassProxying'
-16:04:03.782 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'bootstrapExecutorAliasPostProcessor'
-16:04:03.782 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
-16:04:03.786 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-16:04:03.787 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-16:04:03.789 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
-16:04:03.790 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
-16:04:03.790 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
-16:04:03.791 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
-16:04:03.797 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'applicationTaskExecutor'
-16:04:03.797 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration'
-16:04:03.799 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'threadPoolTaskExecutorBuilder'
-16:04:03.799 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration'
-16:04:03.800 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
-16:04:03.801 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
-16:04:03.806 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'threadPoolTaskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
-16:04:03.807 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'threadPoolTaskExecutorBuilder'
-16:04:03.812 [Test worker] DEBUG o.s.s.c.ThreadPoolTaskExecutor -- Initializing ExecutorService 'applicationTaskExecutor'
-16:04:03.813 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.test.context.support.internalDynamicPropertyRegistrarBeanInitializer'
-16:04:03.814 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'coreApplication'
-16:04:03.814 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'appConfig'
-16:04:03.814 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'autoAppConfig'
-16:04:03.815 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'fixDiscountPolicy'
-16:04:03.815 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'rateDiscountPolicy'
-16:04:03.815 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberServiceImpl'
-16:04:03.815 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberRepository'
+16:52:03.919 [Test worker] INFO  hello.core.CoreApplicationTests -- Starting CoreApplicationTests using Java 17.0.15 with PID 45079 (started by ohdonggyu in /Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core)
+16:52:03.920 [Test worker] DEBUG hello.core.CoreApplicationTests -- Running with Spring Boot v3.5.0, Spring v6.2.7
+16:52:03.920 [Test worker] INFO  hello.core.CoreApplicationTests -- No active profile set, falling back to 1 default profile: &quot;default&quot;
+16:52:03.920 [Test worker] DEBUG o.s.boot.SpringApplication -- Loading source class hello.core.CoreApplication
+16:52:03.929 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f193686
+16:52:03.935 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+16:52:03.941 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+16:52:03.961 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/AppConfig.class]
+16:52:03.962 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/AutoAppConfig.class]
+16:52:03.962 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class]
+16:52:03.963 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class]
+16:52:03.964 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/member/MemberServiceImpl.class]
+16:52:03.964 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/member/MemoryMemberRepository.class]
+16:52:03.965 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/order/OrderServiceImpl.class]
+16:52:03.972 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class]
+16:52:03.972 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class]
+16:52:03.972 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/member/MemberServiceImpl.class]
+16:52:03.972 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/member/MemoryMemberRepository.class]
+16:52:03.972 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/main/hello/core/order/OrderServiceImpl.class]
+16:52:04.097 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+16:52:04.100 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+16:52:04.103 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+16:52:04.109 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+16:52:04.110 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'forceAutoProxyCreatorToUseClassProxying'
+16:52:04.110 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'bootstrapExecutorAliasPostProcessor'
+16:52:04.111 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+16:52:04.114 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+16:52:04.115 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+16:52:04.117 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+16:52:04.118 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+16:52:04.118 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+16:52:04.119 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+16:52:04.126 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'applicationTaskExecutor'
+16:52:04.126 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration'
+16:52:04.127 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'threadPoolTaskExecutorBuilder'
+16:52:04.127 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration'
+16:52:04.128 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+16:52:04.129 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+16:52:04.134 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'threadPoolTaskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+16:52:04.136 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'threadPoolTaskExecutorBuilder'
+16:52:04.140 [Test worker] DEBUG o.s.s.c.ThreadPoolTaskExecutor -- Initializing ExecutorService 'applicationTaskExecutor'
+16:52:04.141 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.test.context.support.internalDynamicPropertyRegistrarBeanInitializer'
+16:52:04.142 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'coreApplication'
+16:52:04.142 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'appConfig'
+16:52:04.143 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'autoAppConfig'
+16:52:04.143 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'fixDiscountPolicy'
+16:52:04.143 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'rateDiscountPolicy'
+16:52:04.143 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberServiceImpl'
+16:52:04.144 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberRepository'
 call AppConfig.memberRepository
-16:04:03.816 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'memberServiceImpl' via constructor to bean named 'memberRepository'
-16:04:03.816 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memoryMemberRepository'
-16:04:03.816 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderServiceImpl'
-16:04:03.817 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'memberRepository'
-16:04:03.817 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'rateDiscountPolicy'
-memberRepository = hello.core.member.MemoryMemberRepository@61bfc9bf
-discountPolicy = hello.core.discount.RateDiscountPolicy@2c7106d9
-16:04:03.817 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberService'
+16:52:04.144 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'memberServiceImpl' via constructor to bean named 'memberRepository'
+16:52:04.145 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memoryMemberRepository'
+16:52:04.145 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderServiceImpl'
+16:52:04.147 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'memberRepository'
+16:52:04.147 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'rateDiscountPolicy'
+memberRepository = hello.core.member.MemoryMemberRepository@7bab5898
+discountPolicy = hello.core.discount.RateDiscountPolicy@366d8b97
+16:52:04.147 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberService'
 call AppConfig.memberService
-16:04:03.818 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderService'
+16:52:04.148 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderService'
 call AppConfig.orderService
-16:04:03.818 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'discountPolicy'
-memberRepository = hello.core.member.MemoryMemberRepository@61bfc9bf
-discountPolicy = hello.core.discount.RateDiscountPolicy@329bad59
-16:04:03.818 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
-16:04:03.819 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
-16:04:03.819 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
-16:04:03.819 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
-16:04:03.819 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
-16:04:03.819 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'applicationAvailability'
-16:04:03.820 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
-16:04:03.820 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
-16:04:03.823 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
-16:04:03.823 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'lifecycleProcessor'
-16:04:03.823 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
-16:04:03.824 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
-16:04:03.825 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
-16:04:03.826 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
-16:04:03.826 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
-16:04:03.827 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
-16:04:03.827 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
-16:04:03.828 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration'
-16:04:03.828 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
-16:04:03.829 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'org.springframework.context.annotation.AnnotationConfigApplicationContext@1f193686'
-16:04:03.829 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
-16:04:03.829 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'fileWatcher'
-16:04:03.830 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'sslPropertiesSslBundleRegistrar'
-16:04:03.830 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'sslPropertiesSslBundleRegistrar' via factory method to bean named 'fileWatcher'
-16:04:03.831 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'sslBundleRegistry'
-16:04:03.833 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration'
-16:04:03.833 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration' via constructor to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
-16:04:03.833 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'simpleAsyncTaskExecutorBuilder'
-16:04:03.834 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration'
-16:04:03.834 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'applicationTaskExecutorAsyncConfigurer'
-16:04:03.834 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'applicationTaskExecutorAsyncConfigurer' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@128c502c'
-16:04:03.835 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration'
-16:04:03.835 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
-16:04:03.836 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration'
-16:04:03.836 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'threadPoolTaskSchedulerBuilder'
-16:04:03.836 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
-16:04:03.837 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'threadPoolTaskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
-16:04:03.838 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration'
-16:04:03.838 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration' via constructor to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
-16:04:03.839 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'simpleAsyncTaskSchedulerBuilder'
-16:04:03.839 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
-16:04:03.843 [Test worker] DEBUG o.s.c.s.DefaultLifecycleProcessor -- Starting beans in phase -2147483647
-16:04:03.843 [Test worker] DEBUG o.s.c.s.DefaultLifecycleProcessor -- Successfully started bean 'springBootLoggingLifecycle'
-16:04:03.843 [Test worker] DEBUG o.s.c.s.DefaultLifecycleProcessor -- Starting beans in phase 1073741823
-16:04:03.849 [Test worker] DEBUG o.s.b.a.l.ConditionEvaluationReportLogger -- 
+16:52:04.148 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'discountPolicy'
+memberRepository = hello.core.member.MemoryMemberRepository@7bab5898
+discountPolicy = hello.core.discount.RateDiscountPolicy@feb98ef
+16:52:04.148 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+16:52:04.149 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+16:52:04.149 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
+16:52:04.149 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+16:52:04.149 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+16:52:04.149 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'applicationAvailability'
+16:52:04.150 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+16:52:04.151 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+16:52:04.155 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+16:52:04.156 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'lifecycleProcessor'
+16:52:04.156 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+16:52:04.157 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+16:52:04.158 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+16:52:04.160 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+16:52:04.160 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+16:52:04.161 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+16:52:04.161 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+16:52:04.162 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration'
+16:52:04.162 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+16:52:04.163 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'org.springframework.context.annotation.AnnotationConfigApplicationContext@1f193686'
+16:52:04.163 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+16:52:04.164 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'fileWatcher'
+16:52:04.164 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'sslPropertiesSslBundleRegistrar'
+16:52:04.164 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'sslPropertiesSslBundleRegistrar' via factory method to bean named 'fileWatcher'
+16:52:04.166 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'sslBundleRegistry'
+16:52:04.168 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration'
+16:52:04.168 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration' via constructor to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+16:52:04.169 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'simpleAsyncTaskExecutorBuilder'
+16:52:04.169 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration'
+16:52:04.170 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'applicationTaskExecutorAsyncConfigurer'
+16:52:04.170 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'applicationTaskExecutorAsyncConfigurer' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@128c502c'
+16:52:04.171 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration'
+16:52:04.171 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+16:52:04.172 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration'
+16:52:04.172 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'threadPoolTaskSchedulerBuilder'
+16:52:04.172 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+16:52:04.173 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'threadPoolTaskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+16:52:04.174 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration'
+16:52:04.174 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration' via constructor to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+16:52:04.175 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'simpleAsyncTaskSchedulerBuilder'
+16:52:04.176 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+16:52:04.181 [Test worker] DEBUG o.s.c.s.DefaultLifecycleProcessor -- Starting beans in phase -2147483647
+16:52:04.181 [Test worker] DEBUG o.s.c.s.DefaultLifecycleProcessor -- Successfully started bean 'springBootLoggingLifecycle'
+16:52:04.181 [Test worker] DEBUG o.s.c.s.DefaultLifecycleProcessor -- Starting beans in phase 1073741823
+16:52:04.188 [Test worker] DEBUG o.s.b.a.l.ConditionEvaluationReportLogger -- 
 
 
 ============================
@@ -983,27 +983,27 @@ Unconditional classes:
 
 
 
-16:04:03.864 [Test worker] INFO  hello.core.CoreApplicationTests -- Started CoreApplicationTests in 0.374 seconds (process running for 0.98)
-16:04:03.865 [Test worker] DEBUG o.s.b.a.ApplicationAvailabilityBean -- Application availability state LivenessState changed to CORRECT
-16:04:03.866 [Test worker] DEBUG o.s.b.a.ApplicationAvailabilityBean -- Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-16:04:03.868 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 0]
-16:04:03.869 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1, failureCount = 0]
-16:04:03.871 [Test worker] DEBUG o.s.t.c.s.DirtiesContextBeforeModesTestExecutionListener -- Before test method: class [CoreApplicationTests], method [contextLoads], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
-16:04:03.872 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1, failureCount = 0]
-16:04:03.872 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1, failureCount = 0]
-16:04:04.291 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1, failureCount = 0]
-16:04:04.292 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1, failureCount = 0]
-16:04:04.295 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1, failureCount = 0]
-16:04:04.295 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1, failureCount = 0]
-16:04:04.298 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1, failureCount = 0]
-16:04:04.298 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1, failureCount = 0]
-16:04:04.298 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1, failureCount = 0]
-16:04:04.299 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1, failureCount = 0]
-16:04:04.300 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1, failureCount = 0]
-16:04:04.301 [Test worker] DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener -- After test method: class [CoreApplicationTests], method [contextLoads], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
-16:04:04.305 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 13, missCount = 1, failureCount = 0]
-16:04:04.305 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@4ba6ec50 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 14, missCount = 1, failureCount = 0]
-16:04:04.305 [Test worker] DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener -- After test class: class [CoreApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+16:52:04.204 [Test worker] INFO  hello.core.CoreApplicationTests -- Started CoreApplicationTests in 0.394 seconds (process running for 0.996)
+16:52:04.205 [Test worker] DEBUG o.s.b.a.ApplicationAvailabilityBean -- Application availability state LivenessState changed to CORRECT
+16:52:04.206 [Test worker] DEBUG o.s.b.a.ApplicationAvailabilityBean -- Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+16:52:04.207 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 0]
+16:52:04.208 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1, failureCount = 0]
+16:52:04.212 [Test worker] DEBUG o.s.t.c.s.DirtiesContextBeforeModesTestExecutionListener -- Before test method: class [CoreApplicationTests], method [contextLoads], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+16:52:04.212 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1, failureCount = 0]
+16:52:04.212 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1, failureCount = 0]
+16:52:04.645 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1, failureCount = 0]
+16:52:04.646 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1, failureCount = 0]
+16:52:04.649 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1, failureCount = 0]
+16:52:04.650 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1, failureCount = 0]
+16:52:04.650 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1, failureCount = 0]
+16:52:04.650 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1, failureCount = 0]
+16:52:04.650 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1, failureCount = 0]
+16:52:04.651 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1, failureCount = 0]
+16:52:04.651 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1, failureCount = 0]
+16:52:04.652 [Test worker] DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener -- After test method: class [CoreApplicationTests], method [contextLoads], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+16:52:04.655 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 13, missCount = 1, failureCount = 0]
+16:52:04.655 [Test worker] DEBUG o.springframework.test.context.cache -- Spring test ApplicationContext cache statistics: [DefaultContextCache@106d77da size = 1, maxSize = 32, parentContextCount = 0, hitCount = 14, missCount = 1, failureCount = 0]
+16:52:04.655 [Test worker] DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener -- After test class: class [CoreApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
 </pre>
 </span>
 </div>
@@ -1015,7 +1015,7 @@ Unconditional classes:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.14</a> at Jun 9, 2025, 4:04:04 PM</p>
+<a href="https://www.gradle.org">Gradle 8.14</a> at Jun 9, 2025, 4:52:04 PM</p>
 </div>
 </div>
 </body>
