@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.scan.filter.ComponentFilterAppConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-09T07:04:04.486Z" hostname="odong-gyus-MacBook-Air.local" time="0.005">
+  <properties/>
+  <testcase name="filterScan()" classname="hello.core.scan.filter.ComponentFilterAppConfigTest" time="0.005"/>
+  <system-out><![CDATA[16:04:04.487 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d7ad0f5
+16:04:04.488 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+16:04:04.490 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/ohdonggyu/Documents/study/KimEnKor_Spring/SpringbootStudy/core/build/classes/java/test/hello/core/scan/filter/BeanA.class]
+16:04:04.491 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+16:04:04.491 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+16:04:04.491 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+16:04:04.491 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+16:04:04.491 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'componentFilterAppConfigTest.ComponentFilterAppConfig'
+16:04:04.491 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'beanA'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

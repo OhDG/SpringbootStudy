@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.xml.XmlAppContext" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-09T07:04:04.514Z" hostname="odong-gyus-MacBook-Air.local" time="0.059">
+  <properties/>
+  <testcase name="xmlAppContext()" classname="hello.core.xml.XmlAppContext" time="0.059"/>
+  <system-out><![CDATA[16:04:04.571 [Test worker] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader -- Loaded 4 bean definitions from class path resource [appConfig.xml]
+16:04:04.571 [Test worker] DEBUG o.s.c.s.GenericXmlApplicationContext -- Refreshing org.springframework.context.support.GenericXmlApplicationContext@2eb0cefe
+16:04:04.572 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberService'
+16:04:04.572 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberRepository'
+16:04:04.573 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderService'
+16:04:04.573 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'discountPolicy'
+memberRepository = hello.core.member.MemoryMemberRepository@54f6b629
+discountPolicy = hello.core.discount.RateDiscountPolicy@4bc9ca97
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
