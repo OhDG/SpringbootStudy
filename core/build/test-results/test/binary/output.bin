@@ -1,16 +1,15 @@
-≠21:09:20.682 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6035b93b
-∆21:09:20.689 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-∑21:09:20.742 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
-µ21:09:20.745 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
-¬21:09:20.746 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-ø21:09:20.747 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-ò21:09:20.750 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'beanLifeCycleTest.LifeCycleConfig'
-Ñ21:09:20.752 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'networkClient'
+≠21:12:58.887 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6035b93b
+∆21:12:58.921 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+∑21:12:58.995 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+µ21:12:58.997 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+¬21:12:58.998 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+ø21:12:58.999 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+ò21:12:59.005 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'beanLifeCycleTest.LifeCycleConfig'
+Ñ21:12:59.007 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'networkClient'
 ÏÉùÏÑ±Ïûê Ìò∏Ï∂ú, url = null
 NetworkClient.init
 !connect: http://hello-spring.dev
 Ccall: http://hello-spring.dev message = Ï¥àÍ∏∞Ìôî Ïó∞Í≤∞ Î©îÏãúÏßÄ
-”21:09:20.766 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6035b93b, started on Wed Jun 11 21:09:20 KST 2025
+”21:12:59.024 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6035b93b, started on Wed Jun 11 21:12:58 KST 2025
 NetworkClient.close
 close: http://hello-spring.dev
-é21:09:20.767 [Test worker] DEBUG o.s.b.f.s.DisposableBeanAdapter -- Custom destroy method 'close' on bean with name 'networkClient' completed
